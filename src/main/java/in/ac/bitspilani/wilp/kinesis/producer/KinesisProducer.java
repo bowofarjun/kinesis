@@ -36,7 +36,7 @@ public class KinesisProducer {
         logger.info("Started sending order to Kinesis with id {}", order.getId());
         try {
             source.output().send(MessageBuilder.withPayload(jsonPayload).build());
-            logger.info("order record with id {} is prduced successfuly to Kinesis", order.getId());
+            logger.info("order record with id {} is produced successfuly to Kinesis", order.getId());
         } catch (Exception ex) {
             logger.error("An error occurred while producing the order records to Kinesis {}", ex.getMessage());
         }

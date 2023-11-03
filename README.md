@@ -1,6 +1,6 @@
 # Kinesis Test Application
 
-This is a SprinBoot application that demonstrates how to use AWS Kinesis Data Streams to produce and consume data. The application consists of a producer (actually a scheduler, which generates random order) and a consumer component that work together to send and receive data from an AWS Kinesis Data Stream.
+This is a SpringBoot application that demonstrates how to use AWS Kinesis Data Streams to produce and consume data. The application consists of a producer (actually a scheduler, which generates random order) and a consumer component that work together to send and receive data from an AWS Kinesis Data Stream.
 
 ## Table of Contents
 - [Pre-requisites](#prerequisites)
