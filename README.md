@@ -3,9 +3,16 @@
 This is a SpringBoot application that demonstrates how to use AWS Kinesis Data Streams to produce and consume data. The application consists of a producer (actually a scheduler, which generates random order) and a consumer component that work together to send and receive data from an AWS Kinesis Data Stream.
 
 ## Table of Contents
+- [Kinesis Demo App Architecture](#architecture)
 - [Pre-requisites](#prerequisites)
 - [Configuration](#configuration)
 - [Details to execute the application](#execution)
+
+<a name="architecture"></a>
+## Kinesis Demo App Architecture
+
+![Kinesis-Architecture](./Kinesis-Arch.drawio.png)
+
 
 <a name="prerequisites"></a>
 ## Pre-requisites
